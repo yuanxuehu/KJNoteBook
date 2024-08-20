@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4201FA56BF57A01B7D3FAA14 /* Pods_KJNoteBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D103A43270EA854AE5B8535B /* Pods_KJNoteBook.framework */; };
 		6878BF572C74DCB200EE828F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF562C74DCB200EE828F /* AppDelegate.swift */; };
 		6878BF592C74DCB200EE828F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF582C74DCB200EE828F /* SceneDelegate.swift */; };
 		6878BF5B2C74DCB200EE828F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF5A2C74DCB200EE828F /* ViewController.swift */; };
-		6878BF5E2C74DCB200EE828F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6878BF5C2C74DCB200EE828F /* Main.storyboard */; };
 		6878BF602C74DCB400EE828F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6878BF5F2C74DCB400EE828F /* Assets.xcassets */; };
 		6878BF632C74DCB400EE828F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6878BF612C74DCB400EE828F /* LaunchScreen.storyboard */; };
 		6878BF6E2C74DCB400EE828F /* KJNoteBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF6D2C74DCB400EE828F /* KJNoteBookTests.swift */; };
 		6878BF782C74DCB400EE828F /* KJNoteBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF772C74DCB400EE828F /* KJNoteBookUITests.swift */; };
 		6878BF7A2C74DCB400EE828F /* KJNoteBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF792C74DCB400EE828F /* KJNoteBookUITestsLaunchTests.swift */; };
+		6878BF882C74DFE700EE828F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6878BF862C74DFE700EE828F /* Main.storyboard */; };
+		6878BF8B2C74E09600EE828F /* KJHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF8A2C74E09600EE828F /* KJHomeView.swift */; };
+		6878BF8D2C74E0CE00EE828F /* KJDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF8C2C74E0CE00EE828F /* KJDataManager.swift */; };
+		6878BF8F2C74E0FB00EE828F /* KJNoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF8E2C74E0FB00EE828F /* KJNoteModel.swift */; };
+		6878BF912C74E13100EE828F /* KJNoteInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF902C74E13100EE828F /* KJNoteInfoViewController.swift */; };
+		6878BF932C74E16900EE828F /* KJNoteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF922C74E16900EE828F /* KJNoteListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CD23D443C27C6786A5AEE9E /* Pods-KJNoteBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJNoteBook.debug.xcconfig"; path = "Target Support Files/Pods-KJNoteBook/Pods-KJNoteBook.debug.xcconfig"; sourceTree = "<group>"; };
 		6878BF532C74DCB200EE828F /* KJNoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJNoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6878BF562C74DCB200EE828F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6878BF582C74DCB200EE828F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6878BF5A2C74DCB200EE828F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6878BF5D2C74DCB200EE828F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6878BF5F2C74DCB400EE828F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6878BF622C74DCB400EE828F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6878BF642C74DCB400EE828F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		6878BF732C74DCB400EE828F /* KJNoteBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJNoteBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6878BF772C74DCB400EE828F /* KJNoteBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJNoteBookUITests.swift; sourceTree = "<group>"; };
 		6878BF792C74DCB400EE828F /* KJNoteBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJNoteBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6878BF872C74DFE700EE828F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6878BF8A2C74E09600EE828F /* KJHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJHomeView.swift; sourceTree = "<group>"; };
+		6878BF8C2C74E0CE00EE828F /* KJDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJDataManager.swift; sourceTree = "<group>"; };
+		6878BF8E2C74E0FB00EE828F /* KJNoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJNoteModel.swift; sourceTree = "<group>"; };
+		6878BF902C74E13100EE828F /* KJNoteInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJNoteInfoViewController.swift; sourceTree = "<group>"; };
+		6878BF922C74E16900EE828F /* KJNoteListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJNoteListTableViewController.swift; sourceTree = "<group>"; };
+		98C3333FEB596C4C04F96B06 /* Pods-KJNoteBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJNoteBook.release.xcconfig"; path = "Target Support Files/Pods-KJNoteBook/Pods-KJNoteBook.release.xcconfig"; sourceTree = "<group>"; };
+		D103A43270EA854AE5B8535B /* Pods_KJNoteBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KJNoteBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4201FA56BF57A01B7D3FAA14 /* Pods_KJNoteBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1909FE4460DDFFD093BDE010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D103A43270EA854AE5B8535B /* Pods_KJNoteBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6878BF4A2C74DCB200EE828F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				6878BF6C2C74DCB400EE828F /* KJNoteBookTests */,
 				6878BF762C74DCB400EE828F /* KJNoteBookUITests */,
 				6878BF542C74DCB200EE828F /* Products */,
+				6DC60F1854CA12DC2B3257DF /* Pods */,
+				1909FE4460DDFFD093BDE010 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +124,12 @@
 		6878BF552C74DCB200EE828F /* KJNoteBook */ = {
 			isa = PBXGroup;
 			children = (
+				6878BF892C74E06400EE828F /* Class */,
 				6878BF562C74DCB200EE828F /* AppDelegate.swift */,
 				6878BF582C74DCB200EE828F /* SceneDelegate.swift */,
 				6878BF5A2C74DCB200EE828F /* ViewController.swift */,
-				6878BF5C2C74DCB200EE828F /* Main.storyboard */,
 				6878BF5F2C74DCB400EE828F /* Assets.xcassets */,
+				6878BF862C74DFE700EE828F /* Main.storyboard */,
 				6878BF612C74DCB400EE828F /* LaunchScreen.storyboard */,
 				6878BF642C74DCB400EE828F /* Info.plist */,
 			);
@@ -127,6 +153,27 @@
 			path = KJNoteBookUITests;
 			sourceTree = "<group>";
 		};
+		6878BF892C74E06400EE828F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6878BF8A2C74E09600EE828F /* KJHomeView.swift */,
+				6878BF8C2C74E0CE00EE828F /* KJDataManager.swift */,
+				6878BF8E2C74E0FB00EE828F /* KJNoteModel.swift */,
+				6878BF902C74E13100EE828F /* KJNoteInfoViewController.swift */,
+				6878BF922C74E16900EE828F /* KJNoteListTableViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6DC60F1854CA12DC2B3257DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CD23D443C27C6786A5AEE9E /* Pods-KJNoteBook.debug.xcconfig */,
+				98C3333FEB596C4C04F96B06 /* Pods-KJNoteBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6878BF7D2C74DCB400EE828F /* Build configuration list for PBXNativeTarget "KJNoteBook" */;
 			buildPhases = (
+				EF4CD8168BCB05BC3C570D53 /* [CP] Check Pods Manifest.lock */,
 				6878BF4F2C74DCB200EE828F /* Sources */,
 				6878BF502C74DCB200EE828F /* Frameworks */,
 				6878BF512C74DCB200EE828F /* Resources */,
+				A3053BC63E682B0D3635E61C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +280,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6878BF882C74DFE700EE828F /* Main.storyboard in Resources */,
 				6878BF632C74DCB400EE828F /* LaunchScreen.storyboard in Resources */,
 				6878BF602C74DCB400EE828F /* Assets.xcassets in Resources */,
-				6878BF5E2C74DCB200EE828F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,11 +302,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A3053BC63E682B0D3635E61C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJNoteBook/Pods-KJNoteBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJNoteBook/Pods-KJNoteBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KJNoteBook/Pods-KJNoteBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4CD8168BCB05BC3C570D53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KJNoteBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6878BF4F2C74DCB200EE828F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6878BF8F2C74E0FB00EE828F /* KJNoteModel.swift in Sources */,
+				6878BF8B2C74E09600EE828F /* KJHomeView.swift in Sources */,
+				6878BF8D2C74E0CE00EE828F /* KJDataManager.swift in Sources */,
+				6878BF912C74E13100EE828F /* KJNoteInfoViewController.swift in Sources */,
+				6878BF932C74E16900EE828F /* KJNoteListTableViewController.swift in Sources */,
 				6878BF5B2C74DCB200EE828F /* ViewController.swift in Sources */,
 				6878BF572C74DCB200EE828F /* AppDelegate.swift in Sources */,
 				6878BF592C74DCB200EE828F /* SceneDelegate.swift in Sources */,
@@ -297,20 +393,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6878BF5C2C74DCB200EE828F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6878BF5D2C74DCB200EE828F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6878BF612C74DCB400EE828F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6878BF622C74DCB400EE828F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6878BF862C74DFE700EE828F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6878BF872C74DFE700EE828F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +528,7 @@
 		};
 		6878BF7E2C74DCB400EE828F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD23D443C27C6786A5AEE9E /* Pods-KJNoteBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +557,7 @@
 		};
 		6878BF7F2C74DCB400EE828F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C3333FEB596C4C04F96B06 /* Pods-KJNoteBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
